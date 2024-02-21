@@ -1,3 +1,46 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#logo {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;  
+}
+a {
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+/* #lostpw {
+    align
+} */
+
+#main-box {
+    border: 1px solid rgb(190, 190, 190);
+    margin: 50px auto 10px;
+    padding: 0 10px 20px;
+    width: 400px
+}
+
+
+label {
+    font-size: smaller;
+}
+
+input, button {
+    width: 380px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+#pw-label {
+    margin-top: 10px; 
+}
+
+button {
+    background-color: rgb(255, 183, 0);
+    border: 1px solid rgb(100, 100, 100);
 }
