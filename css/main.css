@@ -1,17 +1,16 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #logo {
-    margin: 50px auto;
-    display: flex;
-    justify-content: center;  
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
 }
 a {
-    color: dodgerblue;
-    text-decoration: none;
-    font-size: smaller;
+  color: dodgerblue;
+  text-decoration: none;
+  font-size: smaller;
 }
 
 /* #lostpw {
@@ -19,28 +18,69 @@ a {
 } */
 
 #main-box {
-    border: 1px solid rgb(190, 190, 190);
-    margin: 50px auto 10px;
-    padding: 0 10px 20px;
-    width: 400px
+  border: 1px solid rgb(190, 190, 190);
+  margin: 50px auto 0;
+  padding: 0 10px 20px;
+  width: 350px;
 }
-
 
 label {
+  font-size: smaller;
+}
+
+input,
+#continue {
+  width: 330px;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+#continue {
+  background-color: rgb(255, 183, 0);
+  border: 1px solid rgb(100, 100, 100);
+  width: 345px
+}
+#new {
+  width: 350px;
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: rgb(100, 100, 100);
+}
+
+#new-account {
+  width: 350px;
+  /* margin: 10px 0; */
+  padding: 5px;
+}
+
+footer {
+  border-top: 2px solid rgb(125, 125, 125);
+  margin-top: 75px;
+  padding: 25px;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  
+}
+
+footer li {
+  margin: 10px;
+}
+
+footer div {
+  width: 400px;
+  margin: 0 auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(100, 100, 100);
+}
+
+footer p {
     font-size: smaller;
-}
-
-input, button {
-    width: 380px;
-    margin: 10px 0;
-    padding: 5px;
-}
-
-#pw-label {
-    margin-top: 10px; 
-}
-
-button {
-    background-color: rgb(255, 183, 0);
-    border: 1px solid rgb(100, 100, 100);
+    margin: 0 auto
 }
